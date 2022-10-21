@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Tunnel Rush - TBG96</title>
+    <meta name="description" content="Tunnel Rush Unblocked online is the ultimate 3D single-player experience. Blaze your way through caves and tunnels. Each Tunnel Rush level drops you into a whirling kaleidoscope of hazards and 3D tunnels. Play Tunnel Rush Unblocked on TBG95">
+    <script type="text/javascript" src="//tbg96.github.io/cloak.js"></script>
+    <script>
+      function UnityCallJs() {
+        console.log("unity call!");
+      }
+
+      function UnityCallEndgameJs() {
+        console.log("untiy call end game");
+      }
+
+      function UnityCallPlayJs() {
+        console.log("untiy call Play game");
+      }
+
+      function UnityCallLeaderboardJs() {
+        console.log("untiy call On Leaderboard");
+      }
+
+      function UnityCallAgainJs() {
+        console.log("unity call Again");
+      }
+
+      function UnityCallBackHomeJs() {
+        console.log("untiy call backHome");
+      }
+
+      function UnityCallChangeDayLeaderboardJs() {
+        console.log("untiy call change day leaderboard");
+      }
+
+      function UnityCallCloseLeaderboardJs() {
+        console.log("untiy call close leaderboard");
+      }
+    </script>
+    <style>
+      body {
+  margin: 0;
+  padding: 0;
+}
+.webgl-content * {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.webgl-content {
+  position: absolute;
+}
+.webgl-content,
+#gameContainer,
+#unityContainer,
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+.webgl-content .logo,
+.progress {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.webgl-content .logo {
+  background: url("progressLogo.Light.png") no-repeat center/contain;
+  width: 354px;
+  height: 130px;
+}
+.webgl-content .progress {
+  height: 18px;
+  width: 141px;
+  margin-top: 90px;
+}
+.webgl-content .progress .empty {
+  background: url("progressEmpty.Light.png") no-repeat right/cover;
+  float: right;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.webgl-content .progress .full {
+  background: url("progressFull.Light.png") no-repeat left/cover;
+  float: left;
+  width: 0%;
+  height: 100%;
+  display: inline-block;
+}
+.webgl-content .logo.Dark {
+  background-image: url(progressLogo.Dark.png);
+}
+.webgl-content .progress.Dark .empty {
+  background-image: url(progressEmpty.Dark.png);
+}
+.webgl-content .progress.Dark .full {
+  background-image: url(progressFull.Dark.png);
+}
+.webgl-content .footer {
+  margin-top: 5px;
+  height: 38px;
+  line-height: 38px;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 18px;
+}
+.webgl-content .footer .webgl-logo,
+.title,
+.fullscreen {
+  height: 100%;
+  display: inline-block;
+  background: transparent center no-repeat;
+}
+.webgl-content .footer .webgl-logo {
+  background-image: url(webgl-logo.png);
+  width: 204px;
+  float: left;
+}
+.webgl-content .footer .title {
+  margin-right: 10px;
+  float: right;
+}
+.webgl-content .footer .fullscreen {
+  background-image: url(fullscreen.png);
+  width: 38px;
+  float: right;
+}
+    </style>
+  </head>
+  <body style="margin: 0 auto; overflow: hidden">
+  
+    <div class="main-nav" id="post">
+        <h1>Tunnel rush Unblocked (Play Now!) - WTF, 66, 76, 911, World</h1>
+        <p>Tunnel Rush Unblocked online is the ultimate 3D single-player experience. Blaze your way through caves and tunnels. Each Tunnel Rush level drops you into a whirling kaleidoscope of hazards and 3D tunnels. Play Tunnel Rush to dodge barriers using just your wits and your keyboard. Wanna test your reaction speed? Play Tunnel Rush online now and push your skills to the limit. There’s only one way to show those barriers who’s boss, so play Tunnel Rush on Poki to show off those ultra-sharp reactions.</p>
+        <h2>How to play Tunnel Rush</h2>
+        <p>
+          Left and right arrow keys / A, D - Move left and right<br><br> 
+          Space - Pause / restart
+        </p>
+        <h2>Who created Tunnel Rush</h2>
+        <p>Tunnel Rush is created by British studio Deer Cat Games who have also created a sequel to the game in the form of <a href="https://tbg95.github.io/tunnel-rush-2/" title="Tunnel Rush 2">Tunnel Rush 2</a>. They are also the creator behind Wave Rider and Super-Speeder.</p>
+        <h2>More Games</h2>
+        <p>If you like Tunnel Rush Unblocked and  <a href="https://tbg96.github.io" title="TBG96 Unblocked Games">TBG96 Games</a>. You can play another unblocked games on TBG96. This is list similar games: <br>
+          <ul>
+            <li><a href="https://tbg96.github.io/two-ball-3d/" title="Two Ball 3D">Two Ball 3D</a></li>
+            <li><a href="https://tbg96.github.io/two-ball-3d-dark/" title="Two Ball 3D Dark">Two Ball 3D Dark</a></li>
+            <li><a href="https://tbg96.github.io/two-tunnel-3d/" title="Two Tunnel 3D">Two Tunnel 3D</a></li>
+          </ul>
+        </p>
+    </div>  
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 100%; height: 100%; margin: 0;"></div>
+  </div>
+    
+  </body>
+  <script src="UnityLoader2019.js"></script>
+  <script>
+  
+    var gameInstance = UnityLoader.instantiate("gameContainer", "build.json");
+
+    function UnityProgress(gameInstance, progress) {
+      if (!gameInstance.Module) {
+        return;
+      }
+      // progressBarFull.style.width = 100 * progress + "%";
+      // if (progress === 1 && !gameInstance.removeTimeout) {
+      //   loadingBar.style.display = "none";
+      //   gameInstance.removeTimeout = setTimeout(function() {
+      //       loadingBar.style.display = "none";
+      //   }, 2000);
+      //   fullscreenButton.onclick = () => {
+      //     gameInstance.SetFullscreen(1);
+      //   };
+      // }
+    }
+  </script>
+
+</html>
