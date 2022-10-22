@@ -168,4 +168,3 @@ function setIcoLink(linkIcon){
 //
 var btn = document.getElementsByClassName("navbar-burger")[0];
 btn.addEventListener("click", showMenu);
-
