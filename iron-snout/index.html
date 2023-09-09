@@ -1,0 +1,449 @@
+<html lang="en"><head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app202.us.archive.org';v.server_ms=2594;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="/_static/js/ruffle.js"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("https://tbg95.github.io/iron-snout/","20220921203520","http://web.archive.org/","web","/_static/",
+	      "1663792520");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt">
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ">
+<!-- End Wayback Rewrite JS Include -->
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta charset="utf-8">
+
+        <!-- Set the title bar of the page -->
+        <title>Iron Snout - Iron Snout Poki - TBG95</title>
+		<meta name="description" content="Iron Snout is a online fighting game created by SnoutUp where you play as a pig, and have to fight the wolves. Play Iron Snout Unblocked on TBG95">
+		<script type="text/javascript" src="//web.archive.org/web/20220921203520js_/https://tbg95.github.io/cloak.js"></script>
+		<script src="/web/20220921203520js_/https://tbg95.github.io/poki-sdk.js"></script><script src="//web.archive.org/web/20220921203520/https://tbg95.github.io/poki-sdk-core-v2.263.0.js" type="text/javascript"></script> 
+		<script src="/web/20220921203520js_/https://tbg95.github.io/poki-sdk-core-v2.263.0.js"></script>       <style>
+            body {
+              background: #ffffff;
+              color:#cccccc;
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+			  overflow:hidden;
+            }
+			
+            canvas {
+                      image-rendering: optimizeSpeed;
+                      -webkit-interpolation-mode: nearest-neighbor;
+                      -ms-touch-action: none;
+                      margin: 0px;
+                      padding: 0px;
+                      border: 0px;
+            }
+            :-webkit-full-screen #canvas {
+                 width: 100%;
+                 height: 100%;
+            }
+			
+            div.gm4html5_div_class
+            {
+              margin: 0px;
+              padding: 0px;
+              border: 0px;
+            }
+        </style><style>
+.pokiSdkContainer {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pokiSdkContainer.pokiSdkFixed {
+	position: fixed;
+}
+
+.pokiSdkContainer.pokiSdkVisible {
+	display: block;
+}
+
+.pokiSdkContainer.pokiSdkHidden,
+.pokiSdkSpinnerContainer.pokiSdkHidden {
+	display: none;
+}
+
+.pokiSdkContainer.pokiSdkHidden,
+.pokiSdkSpinnerContainer {
+	pointer-events: none;
+}
+
+.pokiSdkSpinnerContainer {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('http://web.archive.org/web/20220921203520im_/https://a.poki.com/images/thumb_anim_2x.gif') 50% 50% no-repeat;
+	user-select: none;
+}
+
+.pokiSdkInsideContainer {
+	background: #000;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.pokiSdkContainer.pokiSdkVisible .pokiSdkInsideContainer {
+	opacity: 1;
+}
+
+.pokiSDKAdContainer, .pokiSdkVideoContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.pokiSdkStartAdButton {
+	position: absolute;
+	z-index: 9999;
+	top: 0;
+
+	padding-top: 10%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #FFF;
+
+	font: 700 15pt 'Arial', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	transition: 0.1s ease-in-out;
+	line-height: 1em;
+}
+
+.pokiSdkPauseButton {
+	cursor:pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+.pokiSdkPauseButton:before {
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	display: block;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	user-select: none;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: background-color 0.5s ease;
+	animation: 1s linear infinite pulse;
+}
+
+.pokiSdkPauseButton:after {
+	content: '';
+	position: absolute;
+	display: block;
+	box-sizing: border-box;
+	border-color: transparent transparent transparent #fff;
+	border-style: solid;
+	border-width: 26px 0 26px 40px;
+	pointer-events: none;
+	animation: 1s linear infinite pulse;
+	left: 6px;
+}
+.pokiSdkPauseButtonBG {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    content: '';
+    background: rgba(0, 43, 80, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.pokiSdkPauseButtonBG:hover{
+	background: rgba(0, 43, 80, 0.7);
+}
+
+@keyframes pulse {
+	0% {
+		transform: translate(-50%, -50%) scale(0.95);
+	}
+	70% {
+		transform: translate(-50%, -50%) scale(1.1);
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(0.95);
+	}
+}
+
+.pokiSdkProgressContainer {
+	background: #B8C7DD;
+	width: 100%;
+	height: 5px;
+	position: absolute;
+	bottom: 0;
+	z-index: 9999;
+}
+
+.pokiSdkProgressBar {
+	position:relative;
+	bottom:0px;
+	background: #FFDC00;
+	height: 100%;
+	width: 0%;
+	transition: width 0.5s;
+	transition-timing-function: linear;
+}
+
+.pokiSdkProgressBar.pokiSdkVisible, .pokiSdkPauseButton.pokiSdkVisible, .pokiSdkStartAdButton.pokiSdkVisible {
+	display: block;
+	pointer-events: auto;
+}
+
+.pokiSdkProgressBar.pokiSdkHidden, .pokiSdkPauseButton.pokiSdkHidden, .pokiSdkStartAdButton.pokiSdkHidden {
+	display: none;
+	pointer-events: none;
+}
+</style><style>
+    button.in-game-button {
+        position: absolute;
+        z-index: 9999;
+        top: 61px;
+        left: 0;
+        width: 75px;
+        height: 50px;
+        background: #fff;
+        border-radius: 0 290486px 290486px 0;
+        color: #000;
+        padding: 0 10px;
+        line-height: 50px;
+        min-height: 50px;
+        border: none;
+        border-bottom: 3px solid #b5b5b5;
+        will-change: transform;
+        animation: bounceY 2s .5s;
+        transition: transform .5s cubic-bezier(.55,0,.1,1);
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    
+    button.in-game-button svg {
+        pointer-events: none;
+        color: #b5b5b5;
+        margin-right: .625rem;
+        display: inline-block
+    }
+    
+    button.in-game-button img {
+        pointer-events: none;
+        width: 30px
+    }
+    
+    button.in-game-button:active {
+        background: #1ec2e5
+    }
+    
+    button.in-game-button[attr-active=true] {
+        transform: translateX(0)
+    }
+    
+    @media(max-height: 350px) and (orientation:landscape) {
+        button.in-game-button[attr-active=true] {
+            transform:translateX(-75px)
+        }
+    }
+    
+    button.in-game-button[attr-snapped=true] svg {
+        display: none
+    }
+    
+    button.in-game-button[attr-snapped=true] img {
+        transform: translate(-5px)
+    }
+    
+    i.in-game-trash {
+        z-index: 1;
+        bottom: 0;
+        left: 0;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: #fff
+    }
+    
+    i.in-game-trash,i.in-game-trash svg {
+        transform: scale(0);
+        position: absolute
+    }
+    
+    i.in-game-trash svg {
+        z-index: 2;
+        left: 20px;
+        bottom: 20px;
+        fill: #fff;
+        will-change: transform;
+        transition: transform .1s cubic-bezier(.55,0,.1,1)
+    }
+    
+    i.in-game-trash:before {
+        content: " ";
+        position: absolute;
+        z-index: 1;
+        bottom: -100px;
+        left: -100px;
+        width: 200px;
+        height: 200px;
+        transform: scale(0);
+        border-radius: 100%;
+        background-color: transparent;
+        will-change: transform,background-color;
+        transition: transform .5s cubic-bezier(.55,0,.1,1),background-color .2s cubic-bezier(.55,0,.1,1)
+    }
+    
+    i.in-game-trash[attr-active=true] {
+        transform: scale(1)
+    }
+    
+    i.in-game-trash[attr-active=true] svg {
+        transition-duration: .8s;
+        transform: scale(1)
+    }
+    
+    i.in-game-trash[attr-active=true]:before {
+        transform: scale(1);
+        background-color: #ed1c24
+    }
+    
+    i.in-game-trash[attr-inrange=true] svg {
+        transition-duration: .2s;
+        transform: scale(0)
+    }
+    
+    i.in-game-trash[attr-inrange=true]:before {
+        transform: scale(1.2);
+        background-color: #ed1c24
+    }
+    .main-nav {
+        z-index: 999;
+        overflow-y: auto;
+        will-change: transform;
+        backface-visibility: hidden;
+        transform: translateX(105%);
+        height: 100%;
+        transition: .3s ease-in-out;
+        background: #f5f5f5;
+        width: 39.5rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding:20px;
+        color:black;
+    }
+    .main-nav.open {
+        transform: translateX(0);
+    }
+    #post{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #3f3424;
+    }
+    #claimBtn{right:0;border-radius: 290486px 0 0 290486px;left:auto}
+    </style><script src="http://web.archive.org/web/20220921203518/https://www.googletagmanager.com/gtag/js?id=UA-231937852-1" type="text/javascript"></script><script type="text/javascript" async="" src="null.html?https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script><script type="text/javascript" async="" src="null.html?https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><script type="text/javascript" async="" src="null.html?https://a.poki.com/prebid/prebid6.12.0.js"></script><script type="text/javascript" async="" src="null.html?https://c.amazon-adsystem.com/aax2/apstag.js"></script></head>
+
+    <body>
+
+
+
+
+ 
+		<div class="main-nav" id="post">
+			<h1>Iron Snout Poki</h1>
+			<p>Iron Snout is a online fighting game created by SnoutUp where you play as a pig, and have to fight the wolves. Punch, kick and flip your way through waves of wolves and other bad guys. Dodge axes and other thrown projectiles away with the arrow keys. Play Iron Snout to show those wolves not to mess with pigs. You and a friend can play Iron Snout for free in the 2-player Wolfieball mode, or you can take on the wolves solo in Classic and Sudden Death modes.</p>
+			<h2>How to play Iron Snout</h2>
+			<p>Use the arrow keys for jumping and hitting wolves.</p>
+			<h2>Who created Iron Snout</h2>
+			<p>Iron Snout was created SnoutUp Games based in Lithuania</p>
+			<h2>More Games</h2>
+			<p>If you like Iron Snout Unblocked and  <a href="http://web.archive.org/web/20220921203520/https://tbg95.github.io/" title="TBG95 Unblocked Games">TBG95 Games</a>. You can play another unblocked games on TBG95. This is list similar games: <br>
+				</p><ul>
+				<li><a href="http://web.archive.org/web/20220921203520/https://tbg95.github.io/mad-gunz/" title="Mad Gunz">Mad Gunz</a></li>
+				<li><a href="http://web.archive.org/web/20220921203520/https://tbg95.github.io/getaway-shootout/" title="Getaway Shootout">Getaway Shootout</a></li>
+				<li><a href="http://web.archive.org/web/20220921203520/https://tbg95.github.io/house-of-hazards/" title="House of Hazards">House of Hazards</a></li>
+				<li><a href="http://web.archive.org/web/20220921203520/https://tbg95.github.io/tiny-fishing/" title="Tiny Fishing">Tiny Fishing</a></li>
+				</ul>
+			<p></p>
+		</div>
+        <div class="gm4html5_div_class" id="gm4html5_div_id">
+            <!-- Create the canvas element the game draws to -->
+            <canvas id="canvas" width="763" height="646" style="touch-action: none; cursor: none;">
+               <p>Your browser doesn't support HTML5 canvas.</p>
+            </canvas>
+			
+			<script type="text/javascript" src="/web/20220921203520js_/https://tbg95.github.io/iron-snout/html5game/IronSnout.js?YJKZB=528561031"></script>
+        </div>
+		<script>
+		var sdk 		= PokiSDK;
+		var pokiDebug 	= false;
+        var canvas      = document.getElementById("canvas");            
+		
+		
+		function poki_log(t) {
+			if (pokiDebug) console.log(t);
+		}
+		
+		function poki_loading(percents) {
+			sdk.gameLoadingProgress({percentageDone: percents});
+		}
+
+		
+		window.onload = function() {
+			sdk.init().then(() => {
+				GameMaker_Init();			
+				sdk.gameLoadingStart();				
+			}).catch(() => {
+				GameMaker_Init();
+			});
+			sdk.setDebug(pokiDebug);
+            
+            canvas.width  = window.innerWidth;
+            canvas.height = window.innerHeight;
+            canvas.addEventListener('click', function(){
+                window.focus();
+            });               
+		}
+		</script>
+    
+<button class="in-game-button" id="inGame">
+    <svg class="svg-inline--fa fa-chevron-left fa-w-10" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg><!-- <i class="fas fa-chevron-left"></i> Font Awesome fontawesome.com -->
+    <img src="/icon36.png" width="36" height="36" alt="Logo"></button><button id="claimBtn" class="in-game-button"><div id="gift" class="fa-stack fa-4x" style="display:flex"> <img src="/info.png">
+</div></button><script src="html5game/hqh_gmCallback.js" type="text/javascript"></script><script src="html5game/iqh_poki.js" type="text/javascript"></script><script src="html5game/jqh_ImageLoadBar.js" type="text/javascript"></script><script src="html5game/kqh_SnoutWeb.js" type="text/javascript"></script><script src="html5game/oqh_GameAnalytics.js" type="text/javascript"></script><script src="html5game/pqh_GameAnalyticsExt.js" type="text/javascript"></script></body></html>
