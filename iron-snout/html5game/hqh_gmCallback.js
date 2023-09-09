@@ -43,5 +43,3 @@ function callback_define_script(extname,gmscript)
 	
 	return false;
 }
-
-}

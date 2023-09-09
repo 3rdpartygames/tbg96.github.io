@@ -6,6 +6,3 @@ void l.internalInitialize()):void t.w("SDK failed initialize. Game key or secret
 scope.gameanalytics=gameanalytics;
 scope.GameAnalytics=GameAnalytics;
 })(this);
-
-
-}

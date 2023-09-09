@@ -49,6 +49,3 @@ function poki_rewarded_break(tag) {
 function poki_callback(event, args) {
 	gmCallback.game_callback(event, args);	
 }
-
-
-}

@@ -52,5 +52,3 @@ function requestFullScreen(element) {
 		}
 	}
 }
-
-}

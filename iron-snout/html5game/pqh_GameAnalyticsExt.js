@@ -152,6 +152,3 @@ function onResume()
 {
     gameanalytics.GameAnalytics.onResume();
 }
-
-
-}
