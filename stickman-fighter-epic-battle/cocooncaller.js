@@ -1,1 +1,0 @@
-// uh this is analytical stuff im not doing that lol
